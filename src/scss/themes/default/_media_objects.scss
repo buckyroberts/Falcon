@@ -3,10 +3,9 @@
 .media {
 	align-items: flex-start;
 	display: flex;
-	margin-bottom: 1em;
 
 	.media-figure {
-		margin-right: 1em;
+		margin-right: 0.8em;
 		max-width: 30%;
 	}
 
@@ -19,8 +18,17 @@
 			margin-bottom: 0.2em;
 		}
 
-		.media-figure{
-			max-width: 20%;
+		// Embedded media object
+		.media{
+			padding-left: 0;
+
+			.media-figure{
+				max-width: 20%;
+			}
+
+			.media-body > .title{
+				font-size: 1em;
+			}
 		}
 
 	}

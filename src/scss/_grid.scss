@@ -1,41 +1,47 @@
+// Phones, small screens (default)
 .container {
 	background-color: #eee;
 	border: 2px solid lightcoral;
 	display: flex;
+	flex-wrap: wrap;
 	margin: 15px;
-}
 
-.col-base{
-	background: DeepSkyBlue;
-	border: 1px solid green;
-	color: white;
-	line-height: 50px;
-	font-weight: 600;
-	text-align: center;
-}
-
-.col{
-
-	@for $i from 1 through 12 {
-		&-#{$i} {
-			@extend .col-base;
-			width: $i / 12 * 100%;
+	.col{
+		@for $i from 1 through 12 {
+			&-#{$i} {
+				background: DeepSkyBlue;
+				border: 1px solid green;
+				color: white;
+				line-height: 50px;
+				font-weight: 600;
+				text-align: center;
+				width: 100%;
+			}
 		}
 	}
 
 }
 
-body{
-	background: cornflowerblue;
-}
 
 // Tablets
 @media (min-width: 768px) {
-	*{
-		color: #009900;
-	}
-	body{
-		background: purple;
+	.container{
+		flex-wrap: nowrap;
+
+		.col{
+			@for $i from 1 through 12 {
+				&-#{$i} {
+					background: DeepSkyBlue;
+					border: 1px solid green;
+					color: white;
+					line-height: 50px;
+					font-weight: 600;
+					text-align: center;
+					width: $i / 12 * 100%;
+				}
+			}
+		}
+
 	}
 }
 

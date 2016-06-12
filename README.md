@@ -9,7 +9,7 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 - Accordion
 - Block quotes
 - Dialog boxes (pop-ups)
-- Drop-down menus
+- Drop-down menus (for both top and left)
 - Sticky menus
 - Pagination
 - Panels

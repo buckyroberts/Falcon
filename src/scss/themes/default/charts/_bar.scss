@@ -12,8 +12,8 @@ dl {
 	.chart-row {
 		background: repeating-linear-gradient(to right, $line-color, $line-color 1px, transparent 1px, transparent 5%);
 		border-right: 1px solid $line-color;
-		height: $row-height;
 		margin-left: $width + 20;
+		padding: 2px 0;
 
 		.label {
 			align-items: center;

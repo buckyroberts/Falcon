@@ -4,6 +4,20 @@
 
 This is a responsive web framework. I made it because I was bored. Feel free to help out!
 
+## To do
+
+- Accordion
+- Block quotes
+- Dialog boxes (pop-ups)
+- Drop-down menus
+- Sticky menus
+- Pagination
+- Panels
+- Pricing tables
+- Sliders
+- Tables
+- Make tabs actually work
+
 ## Links
 
 - [Support thenewboston](https://www.patreon.com/thenewboston)
@@ -12,4 +26,3 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 - [Twitter](https://twitter.com/bucky_roberts)
 - [Google+](https://plus.google.com/+BuckyRoberts)
 - [reddit](https://www.reddit.com/r/thenewboston/)
-

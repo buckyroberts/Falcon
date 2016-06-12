@@ -1,24 +1,16 @@
-@import "colors";
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300);
+@import "variables";
 
 .text {
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
-	line-height: 1.4;
-}
-
-.text {
+	font: $font-default;
 
 	@each $name, $value in $theme-colors {
 		&-#{$name} {
-			@extend .text;
 			color: $value;
 		}
 	}
 
 	@each $name, $value in $theme-colors-light {
 		&-#{$name} {
-			@extend .text;
 			color: $value;
 		}
 	}

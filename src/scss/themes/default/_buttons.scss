@@ -1,0 +1,18 @@
+@import "variables";
+
+@mixin button($bgColor) {
+	background-color: $bgColor;
+	color: #FFFFFF;
+	padding: 8px 12px;
+	text-decoration: none;
+
+	&:hover{
+		background-color: $bgColor * 0.8;
+	}
+
+}
+
+.button-primary {
+	@include button($primary);
+}
+

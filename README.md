@@ -4,7 +4,7 @@
 
 This is a responsive web framework. I made it because I was bored. Feel free to help out!
 
-### Links
+## Links
 
 - [Support thenewboston](https://www.patreon.com/thenewboston)
 - [thenewboston.com](https://thenewboston.com/)

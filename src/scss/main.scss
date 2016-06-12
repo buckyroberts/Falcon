@@ -1,3 +1,7 @@
 @import "normalize";
 @import "grid";
 @import "themes/default/master";
+
+img {
+	max-width: 100%;
+}

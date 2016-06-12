@@ -1,58 +1,42 @@
 @import "../variables";
 
+$width: 130px;
+$row-height: 34px;
+$line-color: #e2e2e2;
+
 dl {
 	display: flex;
 	flex-direction: column;
-	padding: 1.4em;
 	position: relative;
-	width: 100%;
-}
 
-.text {
-	align-items: center;
-	display: flex;
-	height: 40px;
-	justify-content: flex-end;
-	left: 0;
-	position: absolute;
-	width: 130px;
-}
+	.chart-row {
+		background: repeating-linear-gradient(to right, $line-color, $line-color 1px, transparent 1px, transparent 5%);
+		border-right: 1px solid $line-color;
+		height: $row-height;
+		margin-left: $width + 20;
 
-.percentage {
-	font-size: .8em;
-	line-height: 1;
-	text-transform: uppercase;
-	width: 100%;
-	height: 40px;
-	margin-left: 130px;
-	background: repeating-linear-gradient( to right, #ddd, #ddd 1px, #fff 1px, #fff 5%);
-
-	&:after {
-		content: "";
-		display: block;
-		background-color: #16A085;
-		width: 50px;
-		margin-bottom: 10px;
-		height: 90%;
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
-		transition: background-color .2s ease;
-		cursor: pointer;
-	}
-
-	&:hover, &:focus {
-		&:after {
-			background-color: #aaa;
+		.label {
+			align-items: center;
+			display: flex;
+			height: $row-height;
+			justify-content: flex-end;
+			left: 0;
+			position: absolute;
+			width: $width;
 		}
-	}
 
-}
+		.bar{
+			background-color: $success;
+			display: block;
+			height: $row-height - 4;
+			position: relative;
 
-@for $i from 1 through 100 {
-	.percentage-#{$i} {
-		&:after {
-			width: ($i * 1%);
+			&:hover, &:focus {
+				background-color: $success * 0.8;
+				cursor: pointer;
+			}
 		}
+
 	}
+
 }

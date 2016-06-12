@@ -49,6 +49,7 @@ $bgColor: rgba(0, 0, 0, 0.3);
 
 		}
 
+		// Small screen devices
 		@media (max-width: 768px) {
 			&:not(:first-child) {
 				display: none;

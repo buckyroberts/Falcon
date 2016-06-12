@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Falcon Responsive Framework</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body style="padding: 15px 30px;">
+
+    <h3>Form Elements</h3>
+    <form>
+        <div class="form-row">
+            <label>Username:</label>
+            <input type="text" title="firstName">
+        </div>
+        <div class="form-row">
+            <label>Message:</label>
+            <textarea rows="4" cols="50" title="textArea"></textarea>
+        </div>
+        <div class="form-row">
+            <label>File:</label>
+            <input type="file" title="fileButton">
+        </div>
+        <div class="form-row">
+            <label>Radio button:</label>
+            <input type="radio" title="radioButton">
+        </div>
+        <div class="form-row">
+            <label>Checkbox</label>
+            <input type="checkbox" title="checkBox">
+        </div>
+        <div class="form-row">
+            <label>Drop down:</label>
+            <select title="dropDownMenu">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+        <div class="form-row">
+            <label>Submit button:</label>
+            <input class="form-item button-secondary" type="submit" title="submitButton">
+        </div>
+    </form>
 
     <h3>Progress Bars</h3>
     <div class="progress-container"><div class="progress-default" style="width: 30%">Default</div></div>

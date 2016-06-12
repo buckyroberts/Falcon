@@ -29,6 +29,11 @@ p{
 	margin: 0 0 0.75em;
 }
 
+pre{
+	border: 1px solid ($default-light * 1.1) !important;
+	padding: 6px 8px !important;
+}
+
 ul{
 	li{
 		list-style-type: disc;

@@ -1,4 +1,4 @@
-// Phones, small screens (default)
+// Default styling
 .container {
 	background-color: #eee;
 	border: 2px solid lightcoral;
@@ -7,8 +7,7 @@
 	margin: 15px;
 
 	.col-base{
-		background: #c9302c;
-		border: 1px solid green;
+		background: deepskyblue;
 		color: white;
 		line-height: 50px;
 		font-weight: 600;
@@ -33,9 +32,34 @@
 		}
 	}
 
+	.col-lg{
+		@for $i from 1 through 12 {
+			&-#{$i} {
+				@extend .col-base;
+				width: 100%;
+			}
+		}
+	}
+
 }
 
-// Tablets
+// Phones (small)
+@media (min-width: 0px) {
+	.container{
+		flex-wrap: wrap;
+
+		.col-sm{
+			@for $i from 1 through 12 {
+				&-#{$i} {
+					width: $i / 12 * 100%;
+				}
+			}
+		}
+
+	}
+}
+
+// Tablets (medium)
 @media (min-width: 768px) {
 	.container{
 		flex-wrap: nowrap;
@@ -51,20 +75,14 @@
 	}
 }
 
-// Desktop
-@media (min-width: 1024px) {
+// Desktops (large)
+@media (min-width: 768px) {
 	.container{
 		flex-wrap: nowrap;
 
 		.col-lg{
 			@for $i from 1 through 12 {
 				&-#{$i} {
-					background: DeepSkyBlue;
-					border: 1px solid green;
-					color: white;
-					line-height: 50px;
-					font-weight: 600;
-					text-align: center;
 					width: $i / 12 * 100%;
 				}
 			}

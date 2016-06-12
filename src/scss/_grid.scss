@@ -6,15 +6,28 @@
 	flex-wrap: wrap;
 	margin: 15px;
 
-	.col{
+	.col-base{
+		background: #c9302c;
+		border: 1px solid green;
+		color: white;
+		line-height: 50px;
+		font-weight: 600;
+		text-align: center;
+	}
+
+	.col-sm{
 		@for $i from 1 through 12 {
 			&-#{$i} {
-				background: DeepSkyBlue;
-				border: 1px solid green;
-				color: white;
-				line-height: 50px;
-				font-weight: 600;
-				text-align: center;
+				@extend .col-base;
+				width: 100%;
+			}
+		}
+	}
+
+	.col-md{
+		@for $i from 1 through 12 {
+			&-#{$i} {
+				@extend .col-base;
 				width: 100%;
 			}
 		}
@@ -22,13 +35,28 @@
 
 }
 
-
 // Tablets
 @media (min-width: 768px) {
 	.container{
 		flex-wrap: nowrap;
 
-		.col{
+		.col-md{
+			@for $i from 1 through 12 {
+				&-#{$i} {
+					width: $i / 12 * 100%;
+				}
+			}
+		}
+
+	}
+}
+
+// Desktop
+@media (min-width: 1024px) {
+	.container{
+		flex-wrap: nowrap;
+
+		.col-lg{
 			@for $i from 1 through 12 {
 				&-#{$i} {
 					background: DeepSkyBlue;
@@ -42,12 +70,5 @@
 			}
 		}
 
-	}
-}
-
-// Desktop
-@media (min-width: 1024px) {
-	body{
-		background: green;
 	}
 }

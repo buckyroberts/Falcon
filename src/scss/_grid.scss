@@ -2,7 +2,7 @@
 	background-color: #eee;
 	border: 2px solid lightcoral;
 	display: flex;
-	margin: 15px 0;
+	margin: 15px;
 }
 
 .col-base{
@@ -23,4 +23,25 @@
 		}
 	}
 
+}
+
+body{
+	background: cornflowerblue;
+}
+
+// Tablets
+@media (min-width: 768px) {
+	*{
+		color: #009900;
+	}
+	body{
+		background: purple;
+	}
+}
+
+// Desktop
+@media (min-width: 1024px) {
+	body{
+		background: green;
+	}
 }

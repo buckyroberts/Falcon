@@ -7,24 +7,25 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 </head>
-<body>
+<body style="padding: 15px 30px;">
 
-    <h3>Divider</h3>
-    <hr>
-
-    <h3>syntax highlighting</h3>
-<pre class="prettyprint">int main(){
-
-    int bertha[2][3] = {{1,2,3},{7,8,9}};
-
-    for(int row=0; row<2; row++){
-        for(int column=0; column<3;column++){
-            cout << bertha[row][column] << " ";
-        }
-        cout << endl;
-    }
-}
-</pre>
+    <h3>Links</h3>
+    <div><a href="#">Normal link</a></div>
+    <div><a href="#" class="active">Active link</a></div>
+    
+    <h3>Unordered Lists</h3>
+    <ul>
+        <li>Drinks</li>
+        <li>Supplies</li>
+        <li>Food
+            <ul>
+                <li>Bacon</li>
+                <li>Tuna</li>
+                <li>Beef</li>
+            </ul>
+        </li>
+        <li>Other</li>
+    </ul>
 
     <h3>Buttons</h3>
     <div>
@@ -44,6 +45,9 @@
         <button class="button-warning-light">Warning light</button>
     </div>
 
+    <h3>Divider</h3>
+    <hr>
+
     <h3>Paragraphs</h3>
     <div class="text-default">Default text</div>
     <div class="text-default-light">Default light text</div>
@@ -59,6 +63,20 @@
     <div class="text-success-light">Success light text</div>
     <div class="text-warning">Warning text</div>
     <div class="text-warning-light">Warning light text</div>
+
+    <h3>syntax highlighting</h3>
+<pre class="prettyprint">int main(){
+
+    int bertha[2][3] = {{1,2,3},{7,8,9}};
+
+    for(int row=0; row<2; row++){
+        for(int column=0; column<3;column++){
+            cout << bertha[row][column] << " ";
+        }
+        cout << endl;
+    }
+}
+</pre>
 
     <div class="container">
         <div class="col-sm-3">

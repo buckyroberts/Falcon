@@ -2,6 +2,20 @@
 @import "grid";
 @import "themes/default/master";
 
+a, a:visited {
+	color: $secondary;
+	text-decoration: none;
+
+	&:hover{
+		color: $secondary-light;
+	}
+
+	&.active{
+		font-weight: 700;
+	}
+
+}
+
 img {
 	max-width: 100%;
 }
@@ -9,4 +23,10 @@ img {
 hr {
 	border-style: none;
 	border-top: 1px solid ($default-light * 1.2);
+}
+
+ul{
+	li{
+		list-style-type: disc;
+	}
 }

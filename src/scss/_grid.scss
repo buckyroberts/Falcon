@@ -2,18 +2,23 @@
 	background-color: #eee;
 	border: 2px solid lightcoral;
 	display: flex;
+	margin: 15px 0;
+}
+
+.col-base{
+	background: DeepSkyBlue;
+	border: 1px solid green;
+	color: white;
+	line-height: 50px;
+	font-weight: 600;
+	text-align: center;
 }
 
 .col{
 
 	@for $i from 1 through 12 {
 		&-#{$i} {
-			background: DeepSkyBlue;
-			border: 1px solid green;
-			color: white;
-			line-height: 50px;
-			font-weight: 600;
-			text-align: center;
+			@extend .col-base;
 			width: $i / 12 * 100%;
 		}
 	}

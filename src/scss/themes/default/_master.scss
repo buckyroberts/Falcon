@@ -3,7 +3,5 @@
 @import "text";
 
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 13px;
-	line-height: 1.4;
+	font: $font-default;
 }

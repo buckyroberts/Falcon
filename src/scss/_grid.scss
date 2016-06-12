@@ -1,23 +1,25 @@
-// Default styling
-.container {
+.demo-container{
 	background-color: #eee;
 	border: 2px solid lightcoral;
+	margin: 15px;
+}
+
+.demo-item{
+	background: deepskyblue;
+	color: white;
+	line-height: 50px;
+	font-weight: 600;
+	text-align: center;
+}
+
+// Default styling
+.container {
 	display: flex;
 	flex-wrap: wrap;
-	margin: 15px;
-
-	.col-base{
-		background: deepskyblue;
-		color: white;
-		line-height: 50px;
-		font-weight: 600;
-		text-align: center;
-	}
 
 	.col-sm{
 		@for $i from 1 through 12 {
 			&-#{$i} {
-				@extend .col-base;
 				width: 100%;
 			}
 		}
@@ -26,7 +28,6 @@
 	.col-md{
 		@for $i from 1 through 12 {
 			&-#{$i} {
-				@extend .col-base;
 				width: 100%;
 			}
 		}
@@ -35,7 +36,6 @@
 	.col-lg{
 		@for $i from 1 through 12 {
 			&-#{$i} {
-				@extend .col-base;
 				width: 100%;
 			}
 		}
@@ -46,8 +46,6 @@
 // Phones (small)
 @media (min-width: 0px) {
 	.container{
-		flex-wrap: wrap;
-
 		.col-sm{
 			@for $i from 1 through 12 {
 				&-#{$i} {
@@ -55,15 +53,12 @@
 				}
 			}
 		}
-
 	}
 }
 
 // Tablets (medium)
 @media (min-width: 768px) {
 	.container{
-		flex-wrap: nowrap;
-
 		.col-md{
 			@for $i from 1 through 12 {
 				&-#{$i} {
@@ -71,15 +66,12 @@
 				}
 			}
 		}
-
 	}
 }
 
 // Desktops (large)
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
 	.container{
-		flex-wrap: nowrap;
-
 		.col-lg{
 			@for $i from 1 through 12 {
 				&-#{$i} {
@@ -87,6 +79,5 @@
 				}
 			}
 		}
-
 	}
 }

@@ -1,1 +1,273 @@
-.button-danger,.button-danger-light,.button-default,.button-default-light,.button-info,.button-info-light,.button-primary,.button-primary-light,.button-secondary,.button-secondary-light,.button-success,.button-success-light,.button-warning-light{border:none;color:#FFF;padding:8px 12px;text-decoration:none;font:13px/1.4 Roboto,sans-serif}.button-danger,.button-danger-light,.button-default,.button-info,.button-info-light,.button-primary,.button-primary-light,.button-secondary,.button-secondary-light,.button-success,.button-success-light,.button-warning,.button-warning-light,.text,body{font:13px/1.4 Roboto,sans-serif}@font-face{font-family:Roboto;font-style:normal;font-weight:300;src:local('Roboto Light'),local('Roboto-Light'),url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local('Roboto'),local('Roboto-Regular'),url(https://fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf) format('truetype')}@font-face{font-family:Roboto;font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local('Roboto Bold'),local('Roboto-Bold'),url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')}@font-face{font-family:Roboto;font-style:normal;font-weight:900;src:local('Roboto Black'),local('Roboto-Black'),url(https://fonts.gstatic.com/s/roboto/v15/mnpfi9pxYH-Go5UiibESIqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')}.button-default{background-color:#7f8c8d}.button-default:hover{background-color:#667071;cursor:pointer}.button-danger{background-color:#c0392b}.button-danger:hover{background-color:#9a2e22;cursor:pointer}.button-info{background-color:#8e44ad}.button-info:hover{background-color:#72368a;cursor:pointer}.button-primary{background-color:#2c3e50}.button-primary:hover{background-color:#233240;cursor:pointer}.button-secondary{background-color:#2980b9}.button-secondary:hover{background-color:#216694;cursor:pointer}.button-success{background-color:#27ae60}.button-success:hover{background-color:#1f8b4d;cursor:pointer}.button-warning{background-color:#d35400;border:none;color:#FFF;padding:8px 12px;text-decoration:none}.button-warning:hover{background-color:#a94300;cursor:pointer}.button-default-light{background-color:#95a5a6}.button-default-light:hover{background-color:#778485;cursor:pointer}.button-danger-light{background-color:#e74c3c}.button-danger-light:hover{background-color:#b93d30;cursor:pointer}.button-info-light{background-color:#9b59b6}.button-info-light:hover{background-color:#7c4792;cursor:pointer}.button-primary-light{background-color:#34495e}.button-primary-light:hover{background-color:#2a3a4b;cursor:pointer}.button-secondary-light{background-color:#3498db}.button-secondary-light:hover{background-color:#2a7aaf;cursor:pointer}.button-success-light{background-color:#2ecc71}.button-success-light:hover{background-color:#25a35a;cursor:pointer}.button-warning-light{background-color:#e67e22}.button-warning-light:hover{background-color:#b8651b;cursor:pointer}.text-default{color:#7f8c8d}.text-danger{color:#c0392b}.text-info{color:#8e44ad}.text-primary{color:#2c3e50}.text-secondary{color:#2980b9}.text-success{color:#27ae60}.text-warning{color:#d35400}.text-default-light{color:#95a5a6}.text-danger-light{color:#e74c3c}.text-info-light{color:#9b59b6}.text-primary-light{color:#34495e}.text-secondary-light{color:#3498db}.text-success-light{color:#2ecc71}.text-warning-light{color:#e67e22}
+.button-danger, .button-danger-light, .button-default, .button-default-light, .button-info, .button-info-light, .button-primary, .button-primary-light, .button-secondary, .button-secondary-light, .button-success, .button-success-light, .button-warning-light {
+	border: none;
+	color: #FFF;
+	font: 13px/1.4 Roboto, sans-serif;
+	padding: 8px 12px;
+	text-decoration: none
+}
+
+@font-face {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 100;
+	src: local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v15/Jzo62I39jc0gQRrbndN6nfesZW2xOQ-xsNqO47m55DA.ttf) format('truetype')
+}
+
+@font-face {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
+}
+
+@font-face {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf) format('truetype')
+}
+
+@font-face {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
+}
+
+@font-face {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 700;
+	src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v15/d-6IYplOFocCacKzxwXSOKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
+}
+
+@font-face {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 900;
+	src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v15/mnpfi9pxYH-Go5UiibESIqCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
+}
+
+.button-default {
+	background-color: #7f8c8d
+}
+
+.button-default:hover {
+	background-color: #667071;
+	cursor: pointer
+}
+
+.button-danger {
+	background-color: #c0392b
+}
+
+.button-danger:hover {
+	background-color: #9a2e22;
+	cursor: pointer
+}
+
+.button-info {
+	background-color: #8e44ad
+}
+
+.button-info:hover {
+	background-color: #72368a;
+	cursor: pointer
+}
+
+.button-primary {
+	background-color: #2c3e50
+}
+
+.button-primary:hover {
+	background-color: #233240;
+	cursor: pointer
+}
+
+.button-secondary {
+	background-color: #2980b9
+}
+
+.button-secondary:hover {
+	background-color: #216694;
+	cursor: pointer
+}
+
+.button-success {
+	background-color: #27ae60
+}
+
+.button-success:hover {
+	background-color: #1f8b4d;
+	cursor: pointer
+}
+
+.button-warning {
+	background-color: #d35400;
+	border: none;
+	color: #FFF;
+	font: 13px/1.4 Roboto, sans-serif;
+	padding: 8px 12px;
+	text-decoration: none
+}
+
+.button-warning:hover {
+	background-color: #a94300;
+	cursor: pointer
+}
+
+.button-default-light {
+	background-color: #95a5a6
+}
+
+.button-default-light:hover {
+	background-color: #778485;
+	cursor: pointer
+}
+
+.button-danger-light {
+	background-color: #e74c3c
+}
+
+.button-danger-light:hover {
+	background-color: #b93d30;
+	cursor: pointer
+}
+
+.button-info-light {
+	background-color: #9b59b6
+}
+
+.button-info-light:hover {
+	background-color: #7c4792;
+	cursor: pointer
+}
+
+.button-primary-light {
+	background-color: #34495e
+}
+
+.button-primary-light:hover {
+	background-color: #2a3a4b;
+	cursor: pointer
+}
+
+.button-secondary-light {
+	background-color: #3498db
+}
+
+.button-secondary-light:hover {
+	background-color: #2a7aaf;
+	cursor: pointer
+}
+
+.button-success-light {
+	background-color: #2ecc71
+}
+
+.button-success-light:hover {
+	background-color: #25a35a;
+	cursor: pointer
+}
+
+.button-warning-light {
+	background-color: #e67e22
+}
+
+.button-warning-light:hover {
+	background-color: #b8651b;
+	cursor: pointer
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 500;
+	margin: 1em 0 0
+}
+
+.text {
+	font: 13px/1.4 Roboto, sans-serif
+}
+
+.text-default {
+	color: #7f8c8d
+}
+
+.text-danger {
+	color: #c0392b
+}
+
+.text-info {
+	color: #8e44ad
+}
+
+.text-primary {
+	color: #2c3e50
+}
+
+.text-secondary {
+	color: #2980b9
+}
+
+.text-success {
+	color: #27ae60
+}
+
+.text-warning {
+	color: #d35400
+}
+
+.text-default-light {
+	color: #95a5a6
+}
+
+.text-danger-light {
+	color: #e74c3c
+}
+
+.text-info-light {
+	color: #9b59b6
+}
+
+.text-primary-light {
+	color: #34495e
+}
+
+.text-secondary-light {
+	color: #3498db
+}
+
+.text-success-light {
+	color: #2ecc71
+}
+
+.text-warning-light {
+	color: #e67e22
+}
+
+.text-thin {
+	font-weight: 100
+}
+
+.text-light {
+	font-weight: 300
+}
+
+.text-normal {
+	font-weight: 400
+}
+
+.text-medium {
+	font-weight: 500
+}
+
+.text-bold {
+	font-weight: 700
+}
+
+.text-black {
+	font-weight: 900
+}
+
+body {
+	font: 13px/1.4 Roboto, sans-serif
+}

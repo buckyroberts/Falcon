@@ -16,3 +16,11 @@
 	}
 
 }
+
+.text {
+	@each $name, $value in $font-weights {
+		&-#{$name} {
+			font-weight: $value;
+		}
+	}
+}

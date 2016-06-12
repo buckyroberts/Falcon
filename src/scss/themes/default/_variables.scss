@@ -33,3 +33,11 @@ $theme-colors-light:
 				(warning-light, $warning-light);
 
 $font-default: 13px/1.4 'Roboto', sans-serif;
+
+$font-weights:
+				(thin, 100),
+				(light, 300),
+				(normal, 400),
+				(medium, 500),
+				(bold, 700),
+				(black, 900);

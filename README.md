@@ -4,9 +4,13 @@
 
 This is a responsive web framework. I made it because I was bored. Feel free to help out!
 
+## Samples
+
+**Pricing tables**
+![](http://i.imgur.com/iUK1nEs.png)
+
 ## To do
 
-- Drop-down menus (for left)
 - Sticky menus
 
 ## Links

@@ -1,6 +1,6 @@
 @import "variables";
 
-.tab-pane{
+.tab-nav{
 	background-color: $primary;
 	display: flex;
 	padding: 0;
@@ -30,5 +30,16 @@
 .tab-content{
 	border: 1px solid $default-light;
 	border-top: none;
+
 	padding: 12px 20px;
+
+	& > div {
+		display: none;
+
+		&.visible{
+			display: block;
+		}
+	}
+
 }
+

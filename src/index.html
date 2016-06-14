@@ -9,6 +9,17 @@
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
     <script>
         $(document).ready(function () {
+//            var tabContent = $('.tab-content').children();
+//            console.log(tabContent);
+
+            // Each button (tabs)
+            $('.tab-nav > li > a').click(function (e) {
+                e.preventDefault();
+                $('.tab-content').children().removeClass('visible');
+                var targetId = $(this).data('target');
+                $('#' + targetId).addClass('visible');
+            });
+
             $('.accordion .title').click(function (e) {
                 $(this).next().slideToggle(100, function() {
                     $(this).toggleClass('visible');
@@ -20,6 +31,33 @@
 <body style="padding: 15px 30px;">
 
     <img src="http://i.imgur.com/ERZwDLy.png">
+
+    <h3>Tabs</h3>
+
+    <!-- Tabs -->
+    <ul class="tab-nav">
+        <li><a data-target="one" href="#">One</a></li>
+        <li><a data-target="two" href="#" class="active">Two</a></li>
+        <li><a data-target="three" href="#">Three</a></li>
+        <li><a data-target="four" href="#">Four</a></li>
+    </ul>
+
+    <!-- Tab content -->
+    <div class="tab-content">
+        <div id="one">
+            <p>Tail prosciutto beef ribs meatball bresaola frankfurter shank pork kielbasa bacon. Prosciutto drumstick venison,
+                ribeye t-bone beef ground round chuck. Tongue chuck boudin andouille, jerky capicola biltong porchetta pastrami
+                frankfurter. Jowl drumstick shank, filet mignon tongue strip steak shankle alcatra tenderloin ham hock flank tail
+                cupim frankfurter swine.</p>
+            <p>Tail prosciutto beef ribs meatball bresaola frankfurter shank pork kielbasa bacon. Prosciutto drumstick venison,
+                ribeye t-bone beef ground round chuck. Tongue chuck boudin andouille, jerky capicola biltong porchetta pastrami
+                frankfurter. Jowl drumstick shank, filet mignon tongue strip steak shankle alcatra tenderloin ham hock flank tail
+                cupim frankfurter swine.</p>
+        </div>
+        <div id="two">
+           <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-0/p296x100/13061983_1187431404624652_2091813123112519977_n.jpg?oh=e9422eb5bce4c8be6c1a582b30c21a3f&oe=57CC0303">
+        </div>
+    </div>
 
     <h3>Pagination</h3>
     <ul class="pagination">
@@ -309,24 +347,6 @@
             <h5 class="text-light">H5 Light</h5>
             <h6 class="text-light">H6 Light</h6>
         </div>
-    </div>
-
-    <h3>Tabs</h3>
-    <ul class="tab-pane">
-        <li><a href="#">One</a></li>
-        <li><a href="#" class="active">Two</a></li>
-        <li><a href="#">Three</a></li>
-        <li><a href="#">Four</a></li>
-    </ul>
-    <div class="tab-content">
-        <p>Tail prosciutto beef ribs meatball bresaola frankfurter shank pork kielbasa bacon. Prosciutto drumstick venison,
-            ribeye t-bone beef ground round chuck. Tongue chuck boudin andouille, jerky capicola biltong porchetta pastrami
-            frankfurter. Jowl drumstick shank, filet mignon tongue strip steak shankle alcatra tenderloin ham hock flank tail
-            cupim frankfurter swine.</p>
-        <p>Tail prosciutto beef ribs meatball bresaola frankfurter shank pork kielbasa bacon. Prosciutto drumstick venison,
-            ribeye t-bone beef ground round chuck. Tongue chuck boudin andouille, jerky capicola biltong porchetta pastrami
-            frankfurter. Jowl drumstick shank, filet mignon tongue strip steak shankle alcatra tenderloin ham hock flank tail
-            cupim frankfurter swine.</p>
     </div>
 
     <h3>Notifications</h3>

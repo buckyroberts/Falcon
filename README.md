@@ -1,10 +1,10 @@
 ![](http://i.imgur.com/ERZwDLy.png)
 
-# Overview
+## Overview
 
 This is a responsive web framework. I made it because I was bored. Feel free to help out!
 
-# Components
+## Components
 
 **Pricing tables**
 
@@ -58,7 +58,31 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ![](http://i.imgur.com/VD8tMHc.png)
 
-# Links
+**Dividers**
+
+![](http://i.imgur.com/MZCNPtF.png)
+
+**Headings**
+
+![](http://i.imgur.com/cQBP2Km.png)
+
+**Lists**
+
+![](http://i.imgur.com/HRG4ud7.png)
+
+**Media objects**
+
+![](http://i.imgur.com/6d8X1sk.png)
+
+**Text colors**
+
+![](http://i.imgur.com/Yy6CKm3.png)
+
+**Syntax highlighting**
+
+![](http://i.imgur.com/bytrSOs.png)
+
+## Links
 
 - [Support thenewboston](https://www.patreon.com/thenewboston)
 - [thenewboston.com](https://thenewboston.com/)

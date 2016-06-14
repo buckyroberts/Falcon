@@ -10,7 +10,9 @@
     <script>
         $(document).ready(function () {
             $('.accordion .title').click(function (e) {
-                $(this).next().toggleClass('visible');
+                $(this).next().slideToggle(100, function() {
+                    $(this).toggleClass('visible');
+                });
             });
         });
     </script>

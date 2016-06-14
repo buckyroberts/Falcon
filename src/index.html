@@ -10,6 +10,15 @@
     <script>
         $(document).ready(function () {
 
+            $('.modal-control').click(function () {
+                var modal = $('#' + $(this).data('target'));
+                modal.css('display', 'block').click(function (e) {
+                    $(this).find('.close').click(function (e) {
+                        modal.css('display', 'none');
+                    });
+                });
+            });
+
             // First tabs content will be displayed by default
             $('.tab-nav li:first-child a').addClass('active');
             $('.tab-content div:first-child').addClass('visible');
@@ -39,12 +48,29 @@
 
     <img src="http://i.imgur.com/ERZwDLy.png">
 
+    <!-- Modal controller -->
+    <button class="modal-control" data-target="samplePopUp">Open Modal</button>
+
+    <!-- Modal -->
+    <div  class="modal" id="samplePopUp">
+        <div class="content">
+            <div class="content-heading">
+                <span class="title">Title of Modal</span>
+                <span class="close">x</span>
+            </div>
+            <div class="content-body">
+                <p>Leberkas shank bresaola pastrami, boudin pork belly picanha porchetta ham hock beef. Beef short loin
+                    tail, chicken jerky salami pancetta. Prosciutto chuck drumstick, cupim pastrami turkey pork loin
+                    pancetta picanha beef corned beef ham hock porchetta landjaeger shank. Frankfurter filet mignon
+                    fatback spare ribs ground round bresaola bacon kevin.</p>
+            </div>
+        </div>
+    </div>
+
     <h3>Tabs</h3>
     <ul class="tab-nav">
         <li><a data-target="one" href="#">One</a></li>
         <li><a data-target="two" href="#">Two</a></li>
-        <li><a data-target="three" href="#">Three</a></li>
-        <li><a data-target="four" href="#">Four</a></li>
     </ul>
     <div class="tab-content">
         <div id="one">
@@ -53,9 +79,7 @@
                 frankfurter. Jowl drumstick shank, filet mignon tongue strip steak shankle alcatra tenderloin ham hock flank tail
                 cupim frankfurter swine.</p>
         </div>
-        <div id="two">
-           <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-0/p296x100/13061983_1187431404624652_2091813123112519977_n.jpg?oh=e9422eb5bce4c8be6c1a582b30c21a3f&oe=57CC0303">
-        </div>
+        <div id="two"><img src="https://scontent-ord1-1.xx.fbcdn.net/v/t1.0-0/p296x100/13061983_1187431404624652_2091813123112519977_n.jpg?oh=e9422eb5bce4c8be6c1a582b30c21a3f&oe=57CC0303"></div>
     </div>
 
     <h3>Pagination</h3>

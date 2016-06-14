@@ -22,7 +22,7 @@ $bgColor: rgba(0, 0, 0, 0.3);
 
 }
 
-.topNav {
+.top-nav {
 	@extend .nav;
 	border-bottom: 1px solid rgba(#ffffff, 0.1);
 	display: flex;
@@ -82,7 +82,7 @@ $bgColor: rgba(0, 0, 0, 0.3);
 
 }
 
-.leftNav {
+.left-nav {
 	@extend .nav;
 	border-right: 1px solid rgba(#ffffff, 0.1);
 	height: 100%;

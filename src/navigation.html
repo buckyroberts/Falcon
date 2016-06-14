@@ -15,7 +15,7 @@
             a.logo > i {
                 display: none;
             }
-            .leftNav {
+            .left-nav {
                 display: none;
             }
         }
@@ -26,7 +26,7 @@
 
             // Sliding menu
             $('a.logo').click(function () {
-                var leftMenu = $('.leftNav');
+                var leftMenu = $('.left-nav');
                 if (leftMenu.hasClass('visible')) {
                     leftMenu.animate({'left': '-310px'}, 250).removeClass('visible');
                 } else {
@@ -35,9 +35,9 @@
             });
 
             // Drop down
-            $('.topNav .item ul').parent().find('a').click(function () {
+            $('.top-nav .item ul').parent().find('a').click(function () {
                 var isMenuVisible = $(this).next().hasClass('visible');
-                $('.topNav .item ul').removeClass('visible');
+                $('.top-nav .item ul').removeClass('visible');
                 if (!isMenuVisible) {
                     $(this).next().addClass('visible');
                 }
@@ -48,7 +48,7 @@
 </head>
 <body>
 
-    <ul class="topNav">
+    <ul class="top-nav">
         <li class="item">
             <a href="#" class="logo">
                 <i class="fa fa-bars" aria-hidden="true"></i> thenewboston
@@ -78,7 +78,7 @@
         <li class="item"><a href="#">Bacon</a></li>
     </ul>
 
-    <ul class="leftNav visible">
+    <ul class="left-nav visible">
         <li class="item"><a href="#">Home</a></li>
         <li class="item"><a href="#">About</a></li>
         <li class="item"><a href="#">Blog</a></li>

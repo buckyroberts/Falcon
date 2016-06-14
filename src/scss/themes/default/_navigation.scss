@@ -49,6 +49,28 @@ $bgColor: rgba(0, 0, 0, 0.3);
 
 		}
 
+		// Drop down menu
+		ul {
+			background-color: $bgColor * 0.6;
+			display: none;
+			padding: 0;
+			position: absolute;
+
+			&.visible{
+				display: block;
+			}
+
+			li{
+				list-style-type: none;
+
+				a {
+					border-bottom: 1px solid rgba(#ffffff, 0.08);
+					display: block;
+				}
+
+			}
+		}
+
 		// Small screen devices
 		@media (max-width: 768px) {
 			&:not(:first-child) {

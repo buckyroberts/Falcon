@@ -30,9 +30,33 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ![](http://i.imgur.com/K5YS2dM.png)
 
-# To do
+**Panels**
 
-- Sticky menus
+![](http://i.imgur.com/XDfm09k.png)
+
+**Form elements**
+
+![](http://i.imgur.com/vYLT9zS.png)
+
+**Charts**
+
+![](http://i.imgur.com/iUlCk38.png)
+
+**Progress bars**
+
+![](http://i.imgur.com/CFkktWM.png)
+
+**Links**
+
+![](http://i.imgur.com/IHZgQdd.png)
+
+**Accordions**
+
+![](http://i.imgur.com/3LEnWi1.png)
+
+**Breadcrumbs**
+
+![](http://i.imgur.com/VD8tMHc.png)
 
 # Links
 

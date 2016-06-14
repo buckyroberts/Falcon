@@ -9,12 +9,19 @@
     <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
     <script>
         $(document).ready(function () {
-//            var tabContent = $('.tab-content').children();
-//            console.log(tabContent);
 
-            // Each button (tabs)
+            // First tabs content will be displayed by default
+            $($('.tab-nav li:first-child a')).addClass('active');
+            $($('.tab-content').children()[0]).addClass('visible');
+
             $('.tab-nav > li > a').click(function (e) {
                 e.preventDefault();
+
+                // Change the tab styling
+                $('.tab-nav > li > a').removeClass('active');
+                $(this).addClass('active');
+;
+                // Display the content
                 $('.tab-content').children().removeClass('visible');
                 var targetId = $(this).data('target');
                 $('#' + targetId).addClass('visible');
@@ -37,7 +44,7 @@
     <!-- Tabs -->
     <ul class="tab-nav">
         <li><a data-target="one" href="#">One</a></li>
-        <li><a data-target="two" href="#" class="active">Two</a></li>
+        <li><a data-target="two" href="#">Two</a></li>
         <li><a data-target="three" href="#">Three</a></li>
         <li><a data-target="four" href="#">Four</a></li>
     </ul>
@@ -45,10 +52,6 @@
     <!-- Tab content -->
     <div class="tab-content">
         <div id="one">
-            <p>Tail prosciutto beef ribs meatball bresaola frankfurter shank pork kielbasa bacon. Prosciutto drumstick venison,
-                ribeye t-bone beef ground round chuck. Tongue chuck boudin andouille, jerky capicola biltong porchetta pastrami
-                frankfurter. Jowl drumstick shank, filet mignon tongue strip steak shankle alcatra tenderloin ham hock flank tail
-                cupim frankfurter swine.</p>
             <p>Tail prosciutto beef ribs meatball bresaola frankfurter shank pork kielbasa bacon. Prosciutto drumstick venison,
                 ribeye t-bone beef ground round chuck. Tongue chuck boudin andouille, jerky capicola biltong porchetta pastrami
                 frankfurter. Jowl drumstick shank, filet mignon tongue strip steak shankle alcatra tenderloin ham hock flank tail

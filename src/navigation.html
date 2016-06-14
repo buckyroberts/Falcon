@@ -34,13 +34,24 @@
                 }
             });
 
-            // Drop down
+            // Drop down (top-nav)
             $('.top-nav .item ul').parent().find('a').click(function () {
                 var isMenuVisible = $(this).next().hasClass('visible');
                 $('.top-nav .item ul').removeClass('visible');
                 if (!isMenuVisible) {
                     $(this).next().addClass('visible');
                 }
+            });
+
+            // Drop down (left-nav)
+            $('.left-nav .item ul').parent().find('a').click(function () {
+                $(this).next().toggleClass('visible');
+//                var isMenuVisible = $(this).next().hasClass('visible');
+//                console.log(isMenuVisible);
+//                $('.left-nav .item ul').removeClass('visible');
+//                if (!isMenuVisible) {
+//                    $(this).next().addClass('visible');
+//                }
             });
 
         });
@@ -80,9 +91,23 @@
 
     <ul class="left-nav visible">
         <li class="item"><a href="#">Home</a></li>
-        <li class="item"><a href="#">About</a></li>
+        <li class="item">
+            <a href="#">Videos</a>
+            <ul>
+                <li><a href="#">·&nbsp;&nbsp; Business</a></li>
+                <li><a href="#">·&nbsp;&nbsp; Computer Science</a></li>
+                <li><a href="#">·&nbsp;&nbsp; Math</a></li>
+                <li><a href="#">·&nbsp;&nbsp; Social Sciences</a></li>
+            </ul>
+        </li>
         <li class="item"><a href="#">Blog</a></li>
-        <li class="item"><a href="#">Other</a></li>
+        <li class="item">
+            <a href="#">Other</a>
+            <ul>
+                <li><a href="#">·&nbsp;&nbsp; Bacon</a></li>
+                <li><a href="#">·&nbsp;&nbsp; Tuna</a></li>
+            </ul>
+        </li>
         <li class="item"><a href="#">Tuna</a></li>
     </ul>
 

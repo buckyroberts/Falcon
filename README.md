@@ -9,6 +9,22 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 **Buttons**
 
 ![](http://i.imgur.com/1RjCPaw.png)
+```
+<button class="button-default">Default</button>
+<button class="button-default-light">Default light</button>
+<button class="button-danger">Danger</button>
+<button class="button-danger-light">Danger light</button>
+<button class="button-info">Info</button>
+<button class="button-info-light">Info light</button>
+<button class="button-primary">Primary</button>
+<button class="button-primary-light">Primary light</button>
+<button class="button-secondary">Secondary</button>
+<button class="button-secondary-light">Secondary light</button>
+<button class="button-success">Success</button>
+<button class="button-success-light">Success light</button>
+<button class="button-warning">Warning</button>
+<button class="button-warning-light">Warning light</button>
+```
 
 **Blockquotes**
 

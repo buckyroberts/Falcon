@@ -54,6 +54,10 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ![](http://i.imgur.com/IHZgQdd.png)
 
+**Lists**
+
+![](http://i.imgur.com/HRG4ud7.png)
+
 **Accordions**
 
 ![](http://i.imgur.com/3LEnWi1.png)
@@ -61,10 +65,6 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 **Breadcrumbs**
 
 ![](http://i.imgur.com/VD8tMHc.png)
-
-**Dividers**
-
-![](http://i.imgur.com/MZCNPtF.png)
 
 **Responsive images**
 
@@ -74,13 +74,13 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ![](http://i.imgur.com/cQBP2Km.png)
 
+**Dividers**
+
+![](http://i.imgur.com/MZCNPtF.png)
+
 **Text colors**
 
 ![](http://i.imgur.com/Yy6CKm3.png)
-
-**Lists**
-
-![](http://i.imgur.com/HRG4ud7.png)
 
 **Media objects**
 

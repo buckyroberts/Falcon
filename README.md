@@ -1,10 +1,10 @@
 ![](http://i.imgur.com/ERZwDLy.png)
 
-## Overview
+# Overview
 
 This is a responsive web framework. I made it because I was bored. Feel free to help out!
 
-## Components
+# Components
 
 **Pricing tables**
 
@@ -30,11 +30,11 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ![](http://i.imgur.com/K5YS2dM.png)
 
-## To do
+# To do
 
 - Sticky menus
 
-## Links
+# Links
 
 - [Support thenewboston](https://www.patreon.com/thenewboston)
 - [thenewboston.com](https://thenewboston.com/)

@@ -66,6 +66,10 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ![](http://i.imgur.com/cQBP2Km.png)
 
+**Text colors**
+
+![](http://i.imgur.com/Yy6CKm3.png)
+
 **Lists**
 
 ![](http://i.imgur.com/HRG4ud7.png)
@@ -73,10 +77,6 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 **Media objects**
 
 ![](http://i.imgur.com/6d8X1sk.png)
-
-**Text colors**
-
-![](http://i.imgur.com/Yy6CKm3.png)
 
 **Syntax highlighting**
 

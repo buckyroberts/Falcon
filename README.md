@@ -4,10 +4,25 @@
 
 This is a responsive web framework. I made it because I was bored. Feel free to help out!
 
-## Samples
+## Components
 
 **Pricing tables**
-![](http://i.imgur.com/iUK1nEs.png)
+![](http://i.imgur.com/iUK1nEs.png))
+
+**Buttons**
+![](http://i.imgur.com/1RjCPaw.png)
+
+**Blockquotes**
+![](http://i.imgur.com/9Y4S28X.png)
+
+**Pagination**
+![](http://i.imgur.com/mGRNyhe.png)
+
+**Tables**
+![](http://i.imgur.com/0Z1dEQy.png)
+
+**Tabs**
+![](http://i.imgur.com/K5YS2dM.png)
 
 ## To do
 

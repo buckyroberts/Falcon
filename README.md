@@ -10,10 +10,6 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ![](http://i.imgur.com/1RjCPaw.png)
 
-**Notifications**
-
-![](http://i.imgur.com/BuJMfzB.png)
-
 **Blockquotes**
 
 ![](http://i.imgur.com/9Y4S28X.png)
@@ -37,6 +33,10 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 **Panels**
 
 ![](http://i.imgur.com/XDfm09k.png)
+
+**Notifications**
+
+![](http://i.imgur.com/BuJMfzB.png)
 
 **Form elements**
 

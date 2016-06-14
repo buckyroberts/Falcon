@@ -6,10 +6,47 @@
     <title>Falcon Responsive Framework</title>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.accordion .title').click(function (e) {
+                $(this).next().toggleClass('visible');
+            });
+        });
+    </script>
 </head>
 <body style="padding: 15px 30px;">
 
     <img src="http://i.imgur.com/ERZwDLy.png">
+
+    <h3>Accordion</h3>
+    <div class="accordion">
+        <div class="item">
+            <div class="title">Item 1</div>
+            <div class="content">Pork chop tail short loin pancetta meatloaf pastrami short ribs bresaola cow chicken
+                leberkas filet mignon. Meatball rump jowl tongue landjaeger pancetta andouille chuck ribeye picanha.
+                Hamburger short ribs sirloin, spare ribs cow leberkas bacon beef ribs pig tongue ham pork chop. Sirloin
+                biltong kielbasa ball tip picanha drumstick.
+            </div>
+        </div>
+        <div class="item">
+            <div class="title">Item 2</div>
+            <div class="content">Pork chop tail short loin pancetta meatloaf pastrami short ribs bresaola cow chicken
+                leberkas filet mignon. Meatball rump jowl tongue landjaeger pancetta andouille chuck ribeye picanha.
+                Hamburger short ribs sirloin, spare ribs cow leberkas bacon beef ribs pig tongue ham pork chop. Sirloin
+                biltong kielbasa ball tip picanha drumstick.
+            </div>
+        </div>
+    </div>
+
+    <h3>Panels</h3>
+    <div class="panel">
+        <div class="panel-body">Default panel</div>
+    </div>
+    <div class="panel">
+        <div class="panel-heading">Panel heading</div>
+        <div class="panel-body">Panel body</div>
+    </div>
 
     <h3>Horizontal Bar Chart</h3>
     <dl>

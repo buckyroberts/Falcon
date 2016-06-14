@@ -6,7 +6,6 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ## To do
 
-- Block quotes
 - Dialog boxes (pop-ups)
 - Drop-down menus (for both top and left)
 - Sticky menus

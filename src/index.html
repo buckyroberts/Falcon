@@ -12,10 +12,9 @@
 
             $('.modal-control').click(function () {
                 var modal = $('#' + $(this).data('target'));
-                modal.css('display', 'block').click(function (e) {
-                    $(this).find('.close').click(function (e) {
-                        modal.css('display', 'none');
-                    });
+                modal.css('display', 'block');
+                modal.find('.close').click(function () {
+                    modal.css('display', 'none');
                 });
             });
 
@@ -36,7 +35,7 @@
                 $('#' + targetId).addClass('visible');
             });
 
-            $('.accordion .title').click(function (e) {
+            $('.accordion .title').click(function () {
                 $(this).next().slideToggle(100, function() {
                     $(this).toggleClass('visible');
                 });

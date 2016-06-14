@@ -29,8 +29,27 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 **Blockquotes**
 
 ![](http://i.imgur.com/9Y4S28X.png)
+```
+<blockquote>
+    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF
+    works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million
+    globally.
+    <cite>- Isaac Asimov</cite>
+</blockquote>
+```
 
 **Pagination**
+```
+<ul class="pagination">
+    <li><a href="#">&laquo;</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#" class="selected">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">&raquo;</a></li>
+</ul>
+```
 
 ![](http://i.imgur.com/mGRNyhe.png)
 

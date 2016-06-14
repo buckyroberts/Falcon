@@ -24,7 +24,7 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 **Pricing tables**
 
-![](http://i.imgur.com/iUK1nEs.png))
+![](http://i.imgur.com/iUK1nEs.png)
 
 **Tabs**
 

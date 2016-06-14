@@ -82,6 +82,14 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ![](http://i.imgur.com/bytrSOs.png)
 
+**Notifications**
+
+![](http://i.imgur.com/BuJMfzB.png)
+
+**Responsive images**
+
+![](http://i.imgur.com/uqjwQZ4.png)
+
 ## Links
 
 - [Support thenewboston](https://www.patreon.com/thenewboston)

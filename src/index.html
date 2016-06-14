@@ -11,8 +11,8 @@
         $(document).ready(function () {
 
             // First tabs content will be displayed by default
-            $($('.tab-nav li:first-child a')).addClass('active');
-            $($('.tab-content').children()[0]).addClass('visible');
+            $('.tab-nav li:first-child a').addClass('active');
+            $('.tab-content div:first-child').addClass('visible');
 
             $('.tab-nav > li > a').click(function (e) {
                 e.preventDefault();

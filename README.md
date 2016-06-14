@@ -7,8 +7,8 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 ## To do
 
 - Drop-down menus (for both top and left)
-- Sticky menus
 - Pricing tables
+- Sticky menus
 - Tables
 
 ## Links

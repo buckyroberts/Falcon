@@ -9,47 +9,12 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 **Buttons**
 
 ![](http://i.imgur.com/1RjCPaw.png)
-```
-<button class="button-default">Default</button>
-<button class="button-default-light">Default light</button>
-<button class="button-danger">Danger</button>
-<button class="button-danger-light">Danger light</button>
-<button class="button-info">Info</button>
-<button class="button-info-light">Info light</button>
-<button class="button-primary">Primary</button>
-<button class="button-primary-light">Primary light</button>
-<button class="button-secondary">Secondary</button>
-<button class="button-secondary-light">Secondary light</button>
-<button class="button-success">Success</button>
-<button class="button-success-light">Success light</button>
-<button class="button-warning">Warning</button>
-<button class="button-warning-light">Warning light</button>
-```
 
 **Blockquotes**
 
 ![](http://i.imgur.com/9Y4S28X.png)
-```
-<blockquote>
-    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF
-    works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million
-    globally.
-    <cite>- Isaac Asimov</cite>
-</blockquote>
-```
 
 **Pagination**
-```
-<ul class="pagination">
-    <li><a href="#">&laquo;</a></li>
-    <li><a href="#">1</a></li>
-    <li><a href="#" class="selected">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
-    <li><a href="#">&raquo;</a></li>
-</ul>
-```
 
 ![](http://i.imgur.com/mGRNyhe.png)
 

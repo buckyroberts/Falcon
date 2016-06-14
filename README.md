@@ -42,6 +42,10 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ![](http://i.imgur.com/vYLT9zS.png)
 
+**Charts**
+
+![](http://i.imgur.com/iUlCk38.png)
+
 **Progress bars**
 
 ![](http://i.imgur.com/CFkktWM.png)
@@ -69,10 +73,6 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 **Headings**
 
 ![](http://i.imgur.com/cQBP2Km.png)
-
-**Charts**
-
-![](http://i.imgur.com/iUlCk38.png)
 
 **Dividers**
 

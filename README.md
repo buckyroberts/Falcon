@@ -6,13 +6,13 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 
 ## Components
 
-**Pricing tables**
-
-![](http://i.imgur.com/iUK1nEs.png))
-
 **Buttons**
 
 ![](http://i.imgur.com/1RjCPaw.png)
+
+**Notifications**
+
+![](http://i.imgur.com/BuJMfzB.png)
 
 **Blockquotes**
 
@@ -25,6 +25,10 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 **Tables**
 
 ![](http://i.imgur.com/0Z1dEQy.png)
+
+**Pricing tables**
+
+![](http://i.imgur.com/iUK1nEs.png))
 
 **Tabs**
 
@@ -81,10 +85,6 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 **Syntax highlighting**
 
 ![](http://i.imgur.com/bytrSOs.png)
-
-**Notifications**
-
-![](http://i.imgur.com/BuJMfzB.png)
 
 **Responsive images**
 

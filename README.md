@@ -10,9 +10,7 @@ This is a responsive web framework. I made it because I was bored. Feel free to 
 - Drop-down menus (for both top and left)
 - Sticky menus
 - Pricing tables
-- Sliders
 - Tables
-- Make tabs actually work
 
 ## Links
 

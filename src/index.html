@@ -20,7 +20,7 @@
                 // Change the tab styling
                 $('.tab-nav > li > a').removeClass('active');
                 $(this).addClass('active');
-;
+
                 // Display the content
                 $('.tab-content').children().removeClass('visible');
                 var targetId = $(this).data('target');
@@ -40,16 +40,12 @@
     <img src="http://i.imgur.com/ERZwDLy.png">
 
     <h3>Tabs</h3>
-
-    <!-- Tabs -->
     <ul class="tab-nav">
         <li><a data-target="one" href="#">One</a></li>
         <li><a data-target="two" href="#">Two</a></li>
         <li><a data-target="three" href="#">Three</a></li>
         <li><a data-target="four" href="#">Four</a></li>
     </ul>
-
-    <!-- Tab content -->
     <div class="tab-content">
         <div id="one">
             <p>Tail prosciutto beef ribs meatball bresaola frankfurter shank pork kielbasa bacon. Prosciutto drumstick venison,
@@ -123,6 +119,10 @@
         <div class="form-row">
             <label>Message:</label>
             <textarea rows="4" cols="50" title="textArea"></textarea>
+        </div>
+        <div class="form-row">
+            <label>Slider:</label>
+            <input type="range" min="0" max="10">
         </div>
         <div class="form-row">
             <label>File:</label>

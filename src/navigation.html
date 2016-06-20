@@ -35,12 +35,14 @@
             });
 
             // Drop down (top-nav)
-            $('.top-nav .item ul').parent().find('a').click(function () {
+            $('.top-nav .item ul').parent().find('a').hover(function () {
                 var isMenuVisible = $(this).next().hasClass('visible');
-                $('.top-nav .item ul').removeClass('visible');
                 if (!isMenuVisible) {
                     $(this).next().addClass('visible');
                 }
+            });
+            $('.top-nav .item ul').parent().mouseleave(function () {
+                  $('.top-nav .item ul').removeClass('visible');
             });
 
             // Drop down (left-nav)
